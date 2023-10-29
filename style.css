@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.sayfa{
+    height: 100vh;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.foto1{
+    width: 500px;
+    height: 150px;
+    margin-bottom: 70px;
+}
+
+
+.foto1 p{
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+
+
+.foto{
+    width: 300px;
+    height: 50px;
+}
+
+.form1{
+    background-color: white;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 380px;
+    height: 320px;
+    border-radius: 10px;
+    
+    
+}
+
+.form{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 14px;
+    gap: 10px
+    
+    
+}
+
+.inputt{
+    margin-bottom: 15px;
+}
+
+
+
+.input{
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    /* padding-top: 10px; */
+    height: 40px;
+    width: 350px;
+    border-radius: 7px;
+    margin-right: 5px;
+    
+}
+
+
+
+
+
+.buton{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.btn{
+   width: 350px;
+   height: 40px;
+   border-radius: 7px;
+   background-color: #1877f2;
+   color: white;
+   font-size: 20px;
+   font-family: bold;
+   cursor: pointer; 
+   border: 1px solid #1877f2;
+   
+}
+
+.sifre1{
+    margin-top: 15px;
+    text-align: center;
+    
+}
+
+.sifre{
+    color: #18a4f7;
+    text-decoration: none;
+}
+
+.sifre:hover{
+    text-decoration: underline;
+}
+
+.cizgi{
+    border: 1px solid #dadde1;
+    margin: 20px 16px;
+    
+}
+
+.buton2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.buton2 button{
+   width: 200px;
+   height: 40px;
+   border-radius: 7px;
+   cursor: pointer;
+   color: white;
+   background-color: #42b72a;
+   font-size: 18px;
+   border: 1px solid #42b72a;
+}
+
+@media (max-width:768px){
+    .sayfa{
+        display: block;
+        
+    }
+
+
+}
+
+
+
+
+
